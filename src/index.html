@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>3D Rubik's Cube Solver</title>
         <link rel="stylesheet" href="css/styles.css">
+        
 	</head>
 	<body>
         <main>
@@ -12,6 +13,8 @@
                 <h1>3D Rubik's Cube Solver</h1>
             </div>
 
+            <!-- Canvas for the 3d display-->
+            <canvas id="canvas"></canvas>
             <!-- Scripts for 3D rendering and the solving algorithm--> 
             <script src="js/three.js"></script>
             <script id="3d-display" src="js/display.js"></script>
@@ -33,7 +36,7 @@
             <div id="solution">
                 <h2>Solution</h2>
                 <ul>
-                    <li>Step 1.</li>
+                    <li>A solution will go here</li>
                 </ul>
             </div>
 
@@ -41,8 +44,13 @@
             <!-- Instructions on how to use the software will go here --> 
             <div id="instructions">
                 <h2>Instructions</h2>
-                <p>Instructions lol</p>
+                <p>Choose an algorithm in the select box.</p>
+                <p>Then press solve to solve the cube.</p>
             </div>
+
+             
         </main>
+        
+
 	</body>
 </html>
